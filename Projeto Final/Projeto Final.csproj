@@ -46,6 +46,7 @@
     <Compile Include="CAMPO DE BATALHA\Peca.cs" />
     <Compile Include="CAMPO DE BATALHA\Posicao.cs" />
     <Compile Include="CAMPO DE BATALHA\Tabuleiro.cs" />
+    <Compile Include="CAMPO DE BATALHA\TabuleiroException.cs" />
     <Compile Include="CHESS\Rei.cs" />
     <Compile Include="CHESS\Torre.cs" />
     <Compile Include="Program.cs" />
