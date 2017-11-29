@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAMPO DE BATALHA\Cor.cs" />
+    <Compile Include="CAMPO DE BATALHA\Peca.cs" />
     <Compile Include="CAMPO DE BATALHA\Posicao.cs" />
+    <Compile Include="CAMPO DE BATALHA\Tabuleiro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
