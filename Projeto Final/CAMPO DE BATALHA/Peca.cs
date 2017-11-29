@@ -21,5 +21,10 @@ namespace CAMPO_DE_BATALHA
             this.qteMovimentos = 0;
         }
 
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
+
     }
 }
