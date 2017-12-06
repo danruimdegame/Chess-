@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAMPO_DE_BATALHA
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao posicao { get; set; }
         public Cor cor { get; protected set; }
@@ -21,7 +21,7 @@ namespace CAMPO_DE_BATALHA
             this.qteMovimentos = 0;
         }
 
-
+        public abstract bool[,] movimentosPossiveis();
 
         public void incrementarQteMovimentos()
         {
